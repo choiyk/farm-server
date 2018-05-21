@@ -109,6 +109,11 @@ public class APIController {
 		return userService.deleteFarming(id);
 	}
 
+//	@RequestMapping(value="farmingDate/{userId}/{date}")
+//	public List<Farming> farmingDate(@PathVariable("userId") int userId, @PathVariable("date") String date){
+//		return userService.farmingByDate(date, userId);
+//	}
+
 	//CropCategory
 	@RequestMapping(value="cropCategories")
 	public List<CropCategory> cropCategories(){

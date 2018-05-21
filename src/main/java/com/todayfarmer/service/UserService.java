@@ -129,6 +129,10 @@ public class UserService {
 		return "삭제되었습니다.";
 	}
 
+//	public List<Farming> farmingByDate(String date, int userId){
+//		return farmingRepository.findByDate(date, userId);
+//	}
+
 	//etc
 	public String currentDate(){
 		DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
